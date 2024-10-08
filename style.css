@@ -142,6 +142,8 @@ h2{
     padding: 60px 0;
 }
 
+/* projects */
+
 .ph{
     text-align: center;
     width: 100%;
@@ -149,8 +151,8 @@ h2{
 }
 
 .filters{
-
-        width: 100%;
+    margin-bottom: 50px;
+    width: 100%;
 }
 .filters ul{
     display: flex;
@@ -160,4 +162,69 @@ h2{
 .filters a{
     color:black;
     padding: 18px 15px;
+}
+
+.pGrid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.project{
+    text-align: center;
+}
+
+.project img{
+    margin-bottom: 1rem;
+}
+
+.project img{
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+
+.project:hover img{
+
+    opacity: 30%;
+}
+
+.projects{
+    padding: 60px 0;
+}
+
+
+/* plans */
+
+.pnh{
+    text-align: center;
+    width: 100%;
+    padding: 60px 0;
+}
+
+.ptop p1{
+    padding: 10px 0 16px 0;
+}
+
+h4{
+    font-weight: 300;
+    font-size: 36px;
+
+    margin: 20px 0;
+}
+
+.pdet{
+    margin-bottom: ;
+}
+
+.plan{
+    background-color: #f9f9ff;
+    padding: 40px 20px;
+    max-width: 320px;
+}
+
+.plans{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
 }
