@@ -99,10 +99,10 @@ h2{
 .services{
     margin: 120px 0;
 }
-.s-h{
+.sh{
     margin: 0 15px;
 }
-.s-h h2, .s-h p1{
+.sh h2, .sh p1{
     text-align: center;
 }
 
@@ -140,4 +140,24 @@ h2{
     background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
     color: white;
     padding: 60px 0;
+}
+
+.ph{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.filters{
+
+        width: 100%;
+}
+.filters ul{
+    display: flex;
+        justify-content: center;
+}
+
+.filters a{
+    color:black;
+    padding: 18px 15px;
 }
