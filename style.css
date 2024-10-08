@@ -110,3 +110,34 @@ h2{
     font-size: 35px;
     color: #222;
 }
+
+.sMenu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+
+}
+ 
+.sSingle{
+    max-width: 33.33333%;
+    margin-top: 60px;
+}
+
+.sSingle a{
+    color: black;
+}
+
+.sSingle a h3{
+    margin: 30px 0;
+}
+
+.sSingle a p1{
+    max-width: 318px;
+}
+
+.facts{
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    color: white;
+    padding: 60px 0;
+}
