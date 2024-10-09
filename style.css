@@ -230,7 +230,9 @@ h4{
 }
 
 .plan:hover{
-    background-color: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 
